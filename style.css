@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Lobster&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Sonsie+One&family=VT323&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    height: 520px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 8%;
+}
+
+ .icon {
+    width: 300px;
+    height: 55%;
+   position: relative;
+   left: 40px;
+    border-radius:8%;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icon>.hover-icon {
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    border-radius: 20px;
+}
+
+.hover-icon:hover {
+    background-color: hsl(178, 100%, 50%, 0.50);
+}
+
+.icon:hover{
+  background-image: url(./images/icon-view.svg),url(./images/image-equilibrium.jpg);
+  background-size: auto, cover;
+  background-position: center;
+  cursor: pointer;
+
+}
+
+.text-description {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.text-description h1 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 20px;
+    top:10px;
+}
+
+.text-description h1:hover {
+cursor: pointer;
+color: hsl(178, 100%, 50%);
+}
+
+.text-description p {
+    color: hsl(215, 32%, 27%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top:15px;
+    left:18px;
+}
+
+.value {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    position: relative;
+    left:18px;
+    top:30px;
+}
+
+.dollars {
+    padding: .5rem;
+}
+
+.day {
+    padding: .5rem;
+}
+
+.time {
+    color: hsl(215, 32%, 27%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 255px;
+    top:5px;
+}
+
+.break {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin: 15px 25px;
+}
+
+.created-by {
+display: flex;
+flex-direction: row;
+
+}
+
+.creator{
+width: 10%;
+border:1px solid white;
+border-radius: 50%;
+position: relative;
+left: 10px;
+bottom: 5px;
+}
+
+.created-by p {
+    color: hsl(215, 32%, 27%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 22px;
+    bottom: 0px;
+}
+
+.created-by .name {
+    color: white;
+    padding: 3px;
+}
+
+.created-by .name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
