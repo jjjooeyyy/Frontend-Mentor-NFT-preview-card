@@ -11,10 +11,6 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
-
-![](/images/Screenshot 2022-08-12 at 23.07.11.png)
-
 ### Links
 
 - [live site URL here](https://frontend-mentor-nft.netlify.app/)
